@@ -14,7 +14,7 @@ SVMs:
 Create_LIFS:
     - { LIF_Name: nfs_svm2, LIF_State: present, LIF_IP: 192.168.0.120, LIF_Protocol: nfs, 
         svm_lif: svm2, LIF_home_node: cluster1-01, LIF_Role: data, firewall_policy: mgmt }
-         - { LIF_Name: nfs_ep, LIF_State: present, LIF_IP: 192.168.0.150, LIF_Protocol: nfs, 
+    - { LIF_Name: nfs_ep, LIF_State: present, LIF_IP: 192.168.0.150, LIF_Protocol: nfs, 
         svm_lif: ep, LIF_home_node: cluster1-01, LIF_Role: data, firewall_policy: mgmt }
     
 #-----> Create Volumes
