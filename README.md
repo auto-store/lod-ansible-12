@@ -16,7 +16,7 @@ docker volume create ssh-keys
 docker volume create ansible
 
 # Run docker container
-docker run -it -v ansible:/etc/ansible -v ssh-keys:/root/.ssh schmot1s/netapp-ansible /bin/bash
+docker run -it -v ansible:/etc/ansible -v ssh-keys:/root/.ssh schmots1/netapp-ansible /bin/bash
 
 # clone github repo
 cd /etc/ansible
